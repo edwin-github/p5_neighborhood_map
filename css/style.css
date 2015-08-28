@@ -1,0 +1,46 @@
+html, body, #map-canvas {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+/* this holds all of our search and list ui*/
+#searchui {
+	position: fixed;
+	margin: 2% 0 0 6%;
+	font-family: Roboto,Arial,sans-serif;
+	font-size: 12px;
+	max-width:300px;
+}
+
+#pointList {
+	background: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#searchbox {
+	background-color: #FFF;
+	border-width: 1px 0px 1px 1px;
+	border-style: solid none solid solid;
+	border-color: transparent -moz-use-text-color transparent transparent;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-radius: 2px 0px 0px 2px;
+	box-sizing: border-box;
+	height: 32px;
+	outline: medium none;
+	padding: 0px 7px;
+	width: 300px;
+	vertical-align: top;
+}
+.infoWindowH3{
+	margin-bottom:0px;
+}
+.infoWindowUL{
+	margin-top:0px;
+	padding-left:25px;
+}

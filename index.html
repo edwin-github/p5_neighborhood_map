@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Localizing the Map</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+  </head>
+  
+  <body>
+	  <div id="map-canvas">	  </div>
+	   
+	  <div id="searchui">
+		<input id="searchbox" placeholder="Search..." type="search" data-bind="value: searchLoc, valueUpdate: 'afterkeydown'">
+            
+	  	<ul id="pointList" data-bind="foreach: locList">
+			<li data-bind="text: name, click: $parent.showLoc(id)"></li>
+	  	</ul>
+	  	
+	  </div> 
+	  	
+	<script src="js/knockoutB-3.3.0.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+
+</html>	  
