@@ -1,10 +1,10 @@
 ## Neighborhood Map Project
 
-Check it out here: https://edwin-github.github.io/index.html
+Check it out here: http://edwin-github.github.io/index.html
 #############################################################################################################
 
 ## How to use this web app
-1. https://edwin-github.github.io/index.html to open the locations map of Midtown, New York, NY
+1. http://edwin-github.github.io/index.html to open the locations map of Midtown, New York, NY
 2. The map is pre-populated with a variety of selected go to spots. 
    The list is limited to 10 locations, otherwise it will generate an error on the NY Times API call.
 3. Click on a location from the list, the map will be centered and the marker will be animated to pinpoint 
